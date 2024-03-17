@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deep Ocean Aventure</title>
+        <meta charset="UTF-8">
+        <script src="project.js"></script>
+    </head>
+    <body onload="setup()" onkeydown="keyPushedDown(event)">
+        <h1>Deep Ocean Aventure</h1>
+        <h2 id="actionProgram"></h2>
+        <button onclick="execution()">Execute Program</button>
+        <br>
+        <br>
+        <canvas id="canvasOutput" width="800" height="800" style="border : solid"></canvas>
+        <h3 id="scorePlate">Eaten: 0<h3>
+        <button onclick="resetClicked()">Reset</button>
+    </body>
+</html>
